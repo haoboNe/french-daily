@@ -1,7 +1,6 @@
 name: Collect French Phrase
 
 on:
-
   push:
     branches: [ "main" ]
   pull_request:
