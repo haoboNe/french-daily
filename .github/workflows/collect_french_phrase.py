@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # 发起 HTTP 请求获取网页内容
-response = requests.get('https://www.frenchlearner.com/french-phrases/')
+response = requests.get('https://www.france24.com/fr/')
 html_content = response.text
 
 # 使用 BeautifulSoup 解析网页内容
