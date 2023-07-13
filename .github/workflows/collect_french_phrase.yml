@@ -3,6 +3,8 @@ name: Collect French Phrase
 on:
   schedule:
     - cron: '0 1,12 * * *'  # 每天 0 点和 12 点执行
+    
+workflow_dispatch:
 
 jobs:
   collect_french_phrase:
