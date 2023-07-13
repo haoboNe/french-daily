@@ -2,7 +2,7 @@ name: Collect French Phrase
 
 on:
   schedule:
-    - cron: '0 0,12 * * *'  # 每天 0 点和 12 点执行
+    - cron: '0 1,12 * * *'  # 每天 0 点和 12 点执行
 
 jobs:
   collect_french_phrase:
